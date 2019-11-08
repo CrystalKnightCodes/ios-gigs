@@ -14,6 +14,8 @@
 		BA23F27F23750A21001AD26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA23F27D23750A21001AD26C /* LaunchScreen.storyboard */; };
 		BA23F28723750C32001AD26C /* GigsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA23F28623750C32001AD26C /* GigsTableViewController.swift */; };
 		BA23F28923750C61001AD26C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA23F28823750C61001AD26C /* LoginViewController.swift */; };
+		BA23F28C2375102E001AD26C /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA23F28B2375102E001AD26C /* Bearer.swift */; };
+		BA23F28E2375103C001AD26C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA23F28D2375103C001AD26C /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BA23F28023750A21001AD26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA23F28623750C32001AD26C /* GigsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigsTableViewController.swift; sourceTree = "<group>"; };
 		BA23F28823750C61001AD26C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BA23F28B2375102E001AD26C /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
+		BA23F28D2375103C001AD26C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				BA23F27423750A20001AD26C /* SceneDelegate.swift */,
 				BA23F27823750A20001AD26C /* Main.storyboard */,
 				BA23F28A23750C6D001AD26C /* View Controllers */,
+				BA23F29023751059001AD26C /* Models */,
 				BA23F27B23750A21001AD26C /* Assets.xcassets */,
 				BA23F27D23750A21001AD26C /* LaunchScreen.storyboard */,
 				BA23F28023750A21001AD26C /* Info.plist */,
@@ -76,6 +81,15 @@
 				BA23F28623750C32001AD26C /* GigsTableViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BA23F29023751059001AD26C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA23F28B2375102E001AD26C /* Bearer.swift */,
+				BA23F28D2375103C001AD26C /* User.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA23F28C2375102E001AD26C /* Bearer.swift in Sources */,
 				BA23F28923750C61001AD26C /* LoginViewController.swift in Sources */,
+				BA23F28E2375103C001AD26C /* User.swift in Sources */,
 				BA23F27323750A20001AD26C /* AppDelegate.swift in Sources */,
 				BA23F27523750A20001AD26C /* SceneDelegate.swift in Sources */,
 				BA23F28723750C32001AD26C /* GigsTableViewController.swift in Sources */,
