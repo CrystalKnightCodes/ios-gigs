@@ -48,7 +48,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Gigs" id="ucB-qu-BQB"/>
                     <connections>
-                        <segue destination="hLE-96-VhS" kind="presentation" identifier="loginSegue" modalPresentationStyle="fullScreen" id="WMs-3b-19M"/>
+                        <segue destination="hLE-96-VhS" kind="presentation" identifier="loginSegue" id="WMs-3b-19M"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u2l-2E-c5K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -60,11 +60,11 @@
             <objects>
                 <viewController id="hLE-96-VhS" customClass="LoginViewController" customModule="Gigs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2rm-AS-Re5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mnG-QI-gcZ">
-                                <rect key="frame" x="20" y="64" width="374" height="153"/>
+                                <rect key="frame" x="20" y="20" width="374" height="153"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ndX-sX-xo2">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="32"/>
@@ -79,12 +79,12 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g53-Ai-bJl">
                                         <rect key="frame" x="0.0" y="39" width="374" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" textContentType="username"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wRP-cE-gmb">
                                         <rect key="frame" x="0.0" y="81" width="374" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2d-gi-sKx">
                                         <rect key="frame" x="0.0" y="123" width="374" height="30"/>
