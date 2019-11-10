@@ -48,7 +48,7 @@ class GigController {
         URLSession.shared.dataTask(with: request) { (_, response, error) in
             if let response = response as? HTTPURLResponse,
                 response.statusCode != 200 {
-                completion(NSError(domain: "", code: response.statusCode, userInfo:nil))
+                completion(NSError(domain: "", code: response.statusCode, userInfo: nil))
                 return
             }
             
@@ -80,7 +80,7 @@ class GigController {
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             if let response = response as? HTTPURLResponse,
                 response.statusCode != 200 {
-                completion(NSError(domain: "", code: response.statusCode, userInfo:nil))
+                completion(NSError(domain: "", code: response.statusCode, userInfo: nil))
                 return
             }
             
